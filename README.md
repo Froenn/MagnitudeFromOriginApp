@@ -1,4 +1,4 @@
-# scroller_app
+# Magnitude From Origin App
 
 CST407 - Mobile App Development in Android
 
@@ -6,7 +6,7 @@ Project Lead: Froenn Warner
 
 ## Overview
 
-App that simply tracks how far you've scrolled/swiped in any direction based on your device size and displays how far you are from the origin
+App that simply tracks your coordinates of where you've swiped (in any direction) based on your device size, and displays the magnitude (Distance) of your coordinates from the origin(0,0).
 
 ## Features
 
