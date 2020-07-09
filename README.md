@@ -7,3 +7,7 @@ Project Lead: Froenn Warner
 ## Overview
 
 App that simply tracks how far you've scrolled/swiped in any direction based on your device size and displays how far you are from the origin
+
+## Preview
+
+![Distance from Origin Demo](demo.gif)
