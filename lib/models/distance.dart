@@ -1,4 +1,4 @@
-enum Units{ px, inches, m }
+enum Units{ px, inch , m }
 
 class Distance{
   Distance(this._pixels);
@@ -16,7 +16,7 @@ class Distance{
   double calcLength(double m){
       double l;
     switch (_units) {
-      case Units.inches:
+      case Units.inch:
         l = m / 96;
         break;
       case Units.m:
@@ -30,7 +30,7 @@ class Distance{
   }
 
   void swapSystems(){
-    _units = _units == Units.px ? Units.inches : _units == Units.inches ? Units.m : Units.px;
+    _units = _units == Units.px ? Units.inch : _units == Units.inch ? Units.m : Units.px;
     calcLength(_pixels);
   }
 }
